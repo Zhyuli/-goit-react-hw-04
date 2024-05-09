@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #323F47;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #323F47;
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #323F47;
+    color: white;
+    font-size: 24px;
+}
+
+.value {
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #2F2F2F;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.saveButton {
+    padding: 10px 20px;
+    background-color: #9BE1A0;
+    color: #323F47;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
